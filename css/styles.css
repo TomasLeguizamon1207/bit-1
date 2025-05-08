@@ -46,8 +46,20 @@ footer{
     margin-left: 40px;
 }
 
+.button-contact{background-color: #F5A623;
+color: #000000;
+padding:25px 60px;
+margin-right: 40px;
+font-size: 30px;
+font-family: sans-serif;
+border-radius: 12px;
+font-weight: 600;
+cursor: pointer;
+border: 2px solid transparent;
+transition: .3s ease;
+}
 
-.about-me, .button-about-me{
+.contact{
     background-color: #F5A623;
     color: #000000;
     padding: 15px 60px;
@@ -61,7 +73,7 @@ footer{
     transition: .3s ease;
 }
 
-.my-skills, .contact-me, .main-page{
+.programs, .about-us, .main-page{
     background-color: #7B7B7B;
     color: #FFFFFF;
     padding: 15px 60px;
@@ -75,21 +87,21 @@ footer{
     transition: .3s ease;
 }
 
-.about-me:hover{
+.contact:hover{
  background-color: transparent;
  border: 2px solid #F5A623 ;
  color: #FFFFFF;
  transform: scale(1.1);   
 }
 
-.my-skills:hover{
+.programs:hover{
     background-color: transparent;
     border: 2px solid #7B7B7B;
     color: #FFFFFF;
     transform: scale(1.1);
 }
 
-.contact-me:hover{
+.about-us:hover{
     background-color: transparent;
     border: 2px solid #7B7B7B;
     color: #FFFFFF;
@@ -104,7 +116,7 @@ footer{
 }
 
 
-.button-about-me:hover{
+.button-contact:hover{
     background-color: transparent;
     border: 2px solid #F5A623 ;
     color: #FFFFFF;
@@ -113,18 +125,18 @@ footer{
 
 .banner{
     padding-top: 400px;
-    padding-left: 150px;
+    padding-left: 250px;
     position: relative;
     widows: 100%;
-    height: 420px;
+    height: 535px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../Assets/tomas2.jpg);
+    background-image: url(../Assets/SKYPILOT\ BANNER.jpg);
 }
 
 .cta-text{
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .nav-footer{
@@ -135,13 +147,15 @@ footer{
     height: 90px;
 }
 
-.menu-footer{
-    padding-left: 75px;
+.menu{
+    display: flex;
+    padding-right: 400px;
+    padding-left: 400px;
     background: none;
 }
 
 .menu-options{
-    padding-right: 400px;
+    font-weight:500;
 }
 
 .about-me-img{
