@@ -36,7 +36,7 @@ footer{
 }
 
 
-.logo, .logo-footer, .about-me-section{
+.logo, .logo-footer{
     display: flex;
     align-items: center;
 }
@@ -47,7 +47,8 @@ footer{
     margin-left: 40px;
 }
 
-.button-contact{background-color: #F5A623;
+.button-contact{
+background-color: #F5A623;
 color: #000000;
 padding:20px 60px;
 margin-right: 40px;
@@ -58,6 +59,7 @@ font-weight: 600;
 cursor: pointer;
 border: 2px solid transparent;
 transition: .3s ease;
+margin-top: 2%;
 }
 
 .contact{
@@ -140,8 +142,21 @@ transition: .3s ease;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../Assets/SKYPILOT\ BANNER.jpg);
+    background-image: url(../Assets/skypilot-banner.jpg);
 }
+
+.banner-programs{
+    position: relative;
+    padding-top: 300px;
+    position: relative;
+    widows: 100%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Assets/programas-banner.jpg);
+    padding-bottom: 40px;
+}
+
 
 .cta-text{
     color: #FFFFFF;
@@ -167,21 +182,6 @@ transition: .3s ease;
     font-weight:500;
 }
 
-.about-me-img{
-    height: 400px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-right: 70px;
-}
-
-.about-me-section, .skills1-section, .skills2-section, .skills3-section{
-    padding-left: 70px;
-    padding-right: 70px;
-    border: 5px solid #F5A623;
-    background-color: #7B7B7B;
-    display: flex;
-    align-items: center;
-}
 
 .main-section{
     padding-top: 200px;
@@ -197,40 +197,225 @@ transition: .3s ease;
     padding-bottom: 40px;
 }
 
-.title-about, .skills-tittle{
-    font-size: 40px;
+.programs-main{
+    display: flex;
+}
+
+.title-programs-main{
     color: #F5A623;
+    font-weight: 600;
+    text-align: center ;
+    padding-top: 100px;
+    font-size: 70px;
 }
 
-.skill1-img{
-    height: 160px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-right: 70px;
+.pca-ppa{
+    display: flex;
+    padding-top: 8%;
+    justify-content: space-between;
 }
 
-.skills1-section, .skills2-section{
-    border-bottom: 0px solid #F5A623;
+.programs-1{
+    width: 550px;
+    height: 413px;
+    margin-left: 150px;
+    border: 15px solid #F5A623;
 }
 
-.github{
-    padding-right: 50px;
-    font-weight: bold;
-    font-size: large;
+.programs-2{
+    width: 550px;
+    height: 413px;
+    margin-right: 150px;
+    border: 15px solid #F5A623;
+}
+
+.programs-main-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.programs-main-text-1{
+    color: #F5A623;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.programs-main-text-2{
+    color: #F5A623;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+.button-programs{
+background-color: #F5A623;
+color: #FFFFFF;
+padding:20px 60px;
+margin-right: 40px;
+font-size: 20px;
+font-family: sans-serif;
+border-radius: 12px;
+font-weight: 600;
+cursor: pointer;
+border: 2px solid transparent;
+transition: .3s ease;
+margin-left: 40%;
+margin-top: 4%;
+margin-bottom: 4%;
+}
+
+.button-programs:hover{ 
+background-color: transparent;
+border: 2px solid #F5A623 ;
+color: #1E3A5F;
+transform: scale(1.1);
+}
+
+.programs-main-title{
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.programs-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+.contenedor-ppa, .contenedor-fi{
+    background-color: #7B7B7B;
+    height: 396px;
+    width: 352px;
+    border-radius: 8px;
+}
+
+.contenedor-ppa{
+    margin-left: 150px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+.contenedor-fi{
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+.contenedor-pca{
+    background-color: #F5A623;
+    height: 396px;
+    width: 352px;
+    margin-left: 150px;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 4%;
+    border-radius: 8px;
+}
+
+.programs-text{
+    font-size: 24px;
+    font-weight: 550;
+    color: #FFFFFF;
+}
+
+.pca-text{
+    font-size: 22px;
+    font-weight: 550;
+    color: #FFFFFF; 
+}
+
+.programs-title{
+    font-size: 24px;
+    font-weight: 650;
+    color: #FFFFFF;
+}
+
+.programs-cost{
+    font-size: 32px;
+    font-weight: 650;
+    color: #FFFFFF;
 }
 
 .index-main{
     padding-top: 75px;
 }
 
-@media (max-width:1208px){
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: 10px 0px;
-    }
+.about-banner{
+    position: relative;
+    padding-top: 300px;
+    position: relative;
+    widows: 100%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Assets/about-banner.jpg);
+    padding-bottom: 40px;
 }
+
+.about-main-title{
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.container-about{
+    display: flex;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.text-container{
+    background-color: #7B7B7B;
+    border: 5px solid #F5A623;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 20px ;
+    margin-right: 30px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.about-text{
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.img-mision{
+    border: 5px solid #F5A623;
+}
+
+.img-valores{
+    border: 5px solid #F5A623;
+}
+
+.img-vision{
+    border: 5px solid #F5A623;
+}
+
+.img-about{
+    border: 5px solid #F5A623;
+}
+
+
 
 @media (max-width:576px){
     footer{
