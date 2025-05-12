@@ -19,8 +19,7 @@ inputs.forEach(input => {
 })
 
 
-  emailjs.init('0JPY9L_shz4WsCRIJ'); // Tu Public Key
-
+  emailjs.init('0JPY9L_shz4WsCRIJ');
   const btn = document.getElementById('button');
 
   document.getElementById('form')
@@ -29,7 +28,7 @@ inputs.forEach(input => {
       btn.value = 'Enviando...';
 
       const serviceID = 'default_service';
-      const templateID = 'template_r8o6peo'; // Asegúrate que esté bien
+      const templateID = 'template_r8o6peo';
 
       emailjs.sendForm(serviceID, templateID, this)
         .then(() => {
