@@ -22,6 +22,8 @@ Que usa la pagina
 
 
 El wireframe utilizado para esta página web es:
+
+
 ![Image Alt](https://github.com/TomasLeguizamon1207/bit-1/blob/ca6ba223a0f9be0b60b4ae660cfa347016974c42/imagen_2025-05-12_022107184.png)
 
 ---
