@@ -26,6 +26,8 @@ El wireframe utilizado para esta página web es:
 
 ![Image Alt](https://github.com/TomasLeguizamon1207/bit-1/blob/ca6ba223a0f9be0b60b4ae660cfa347016974c42/imagen_2025-05-12_022107184.png)
 
+![Image Alt](https://github.com/TomasLeguizamon1207/bit-1/blob/89a3b2147f33358b01477cb099dfc6fc543977bd/imagen_2025-05-12_022423030.png)
+
 ---
 
 > Tomás Leguizamón
